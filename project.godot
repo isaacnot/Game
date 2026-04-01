@@ -12,11 +12,21 @@ config_version=5
 
 config/name="climbing game test"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://well_hell/art/icon.svg"
 
 [display]
 
 window/size/mode=3
+window/stretch/mode="canvas_items"
+
+[file_customization]
+
+folder_colors={
+"res://well_hell/": "teal",
+"res://well_hell/art/": "purple",
+"res://well_hell/code/": "pink",
+"res://well_hell/scenes/": "blue"
+}
 
 [rendering]
 
